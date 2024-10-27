@@ -51,7 +51,6 @@ export function ManageCookies({
   onDeclineCookies,
   closeCookiesModal,
 }: Props) {
-  const showEssentialsCookies = true; // default, can not be changed
   const [showAnalyticsCookies, setShowAnalyticsCookies] = useState(true);
   const [showMarketingCookies, setShowMarketingCookies] = useState(true);
   const ref = useRef<HTMLDialogElement | null>(null);

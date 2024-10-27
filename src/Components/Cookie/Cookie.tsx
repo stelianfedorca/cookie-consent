@@ -1,6 +1,5 @@
 import { Button } from '../Button/Button';
 import './Cookie.css';
-import Cookies from 'js-cookie';
 
 type Props = {
   onAllowCookies: () => void;
