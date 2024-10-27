@@ -1,0 +1,46 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.max-width-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 400px;
+  position: relative;
+  border: 0;
+  position: absolute;
+  z-index: 200;
+  margin-bottom: 10rem;
+}
+
+.manage-cookies-container {
+  border: none;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+}
+
+.accept-save-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.decline-button {
+  width: 100%;
+}
+
+.cookie-info-toggle-container {
+  display: flex;
+  justify-content: space-between;
+}
