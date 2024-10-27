@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/button/button.tsx","./src/components/cookie/cookie.tsx","./src/components/managecookies/managecookies.tsx","./src/components/togglebutton/togglebutton.tsx"],"version":"5.6.3"}
